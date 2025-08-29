@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "tailwindcss";
+@import "./styles/fonts.css";
+@import "./styles/base.css";
+@import "./styles/utilities.css";
+
+/* Opcional para verificar contraste */
+:root { color-scheme: light dark; }
+body { min-height: 100svh; }

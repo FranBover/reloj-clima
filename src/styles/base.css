@@ -1,0 +1,16 @@
+/* src/styles/base.css */
+/* Base mínima de la app */
+html, body, #root { height: 100%; }
+
+html {
+  /* Por defecto, el cuerpo usa Inter */
+  font-family: var(--font-body);
+}
+
+body {
+  /* Mantengo tu look actual oscuro */
+  background-color: #0b0b0b; /* cercano a zinc-950 */
+  color: #e5e7eb;           /* zinc-200/100 aprox */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
